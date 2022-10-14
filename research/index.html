@@ -131,6 +131,17 @@ function myFunction3() {
   }
 }
 </script>
+<script>
+function myFunction4() {
+  var x = document.getElementById("myDIV4");
+  if (x.style.display === "none") {
+    x.style.display = "inline";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
   <h2 class="ttu tracked black-30 pv3 mt0 bt b--black-30">Working Papers</h2>
   <div class="mv8 v-top">
     <h3>Business cycle asymmetry of earnings pass-through</h3>
@@ -139,7 +150,7 @@ function myFunction3() {
     <a onclick="myFunction2()" class="button">Abstract</a>
     <div id="myDIV2" style="display: none;">
   <p style="margin-bottom:.75cm;"></p>
-Using rich Swedish administrative data, I document that earnings pass-through - how much workers' earnings change when the firm where they work is hit by idiosyncratic productivity shocks - is heterogeneous over the business cycle. Firms are very good insurance providers against negative shocks in non-recessionary periods but they are much less so when the economy is in downturn. On the other hand, workers do not benefit much from positive shocks - unless they are very large - regardless of the state of the economy. I rationalize these empirical findings in a directed search model of the labor market with risk averse workers, on-the-job search, firm commitment and a structure of the exogenous processes capturing the fact that negative firm idiosyncratic shocks are more disastrous events during recessions. The different persistence of such shocks over the business cycle is crucial for the model to match the data. 
+Using Swedish administrative data, I document that earnings pass-through - how much workers' earnings change when the firm where they work is hit by idiosyncratic productivity shocks - is heterogeneous over the business cycle. Firms are very good insurance providers against negative shocks in non-recessionary periods but they are much less so when the economy is in downturn. On the other hand, workers do not benefit much from positive shocks - unless they are very large - regardless of the state of the economy. I rationalize these empirical findings in a directed search model of the labor market with risk averse workers, on-the-job search, firm commitment and a structure of the exogenous processes capturing the fact that negative firm idiosyncratic shocks are more disastrous events during recessions. The different persistence of such shocks over the business cycle is crucial for the model to match the data. 
 <p style="margin-bottom:.75cm;"></p></div>
      
     <p style="margin-bottom:1.5cm;"></p>
@@ -168,11 +179,17 @@ Using data from 16 OECD countries from 1981 to 2014 we study the effects on outp
     </div>
     <h2 class="ttu tracked black-30 pv3 mt5 bt b--black-30">Work in progress</h2>
     <div class="mv8 v-top">
-        <h3>The portfolio response to income changes</h3>
+        <h3>Human capital inference</h3>
         <p>with Zolt&aacuten R&aacutecz</p>
         <p style="margin-bottom:1.5cm;"></p>
         <h3>A Bewley model with portfolio choice</h3>
         <p>with Zolt&aacuten R&aacutecz and <a href="https://sites.google.com/view/markuskondziella/home?authuser=0" style="text-decoration: none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'" target="_blank" onclick="this.blur();">Markus Kondziella</a></p>
+        <a onclick="myFunction4()" class="button">Abstract</a>
+         <div id="myDIV4" style="display: none;">
+  <p style="margin-bottom:.75cm;"></p>
+Preference heterogeneity and income risk are important determinants of individuals' savings and portfolio decisions. How much does capturing their effect on portfolio choices over the wealth distribution help explaining inequality? To assess this question, we build a partial equilibrium Bewley-type model with endogenous portfolio choice, cyclical skewness in labour income, idiosyncratic returns and heterogeneity in preference parameters. Calibrating the latter to match the increasing schedules in wealth of participation, unconditional risky share and share of idiosyncratic variance in individual portfolios as in the data, we find that the model can match well the shape of the wealth distribution, particularly at the very top. Crucial for this result is the presence of a group of individuals with low risk aversion and high share of idiosyncratic variance who endogenously end up in the right tail of the distribution. On the other hand, cyclical skewness of labor income enables us to explain the low stock holding for households whose wealth is dominated by human capital. Finally, we analyse the response to realistic aggregate return shocks and the model implied evolution of wealth inequality when feeding the historical time series of aggregate returns and GDP growth.
+<p style="margin-bottom:.75cm;"></p></div>
+
       </div>
   </section>
 </main>
